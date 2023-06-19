@@ -18,12 +18,6 @@ In this work, you can use directly or get inspired by:
 
 
 
-<!-- ![Our Element-aware Dataset](./assets/Dataset.png)
-
-![Our SumCoT Pipeline](./assets/Method.png) -->
-
-
-
 ---
 
 
@@ -35,7 +29,9 @@ Our annotation protocol is mainly based on [*Lasswell Communication Model*](http
 
 Case comparisons for our Element-aware summary and original dataset-specific summary:
 
-<img src="./assets/Dataset.png" width="60%" align="center">
+<div align=center>
+<img src="./assets/Dataset.png" width="60%" align="center"></img>
+</div>
 
 ### Data Usage
 
@@ -81,7 +77,9 @@ Data will be released soon...
 
 ## Summary Chain-of-Thought (SumCoT)
 
-<img src="./assets/Method.png" width="80%" align=center>
+<div align=center>
+<img src="./assets/Method.png" width="80%">
+</div>
 
 
 ## Citation
