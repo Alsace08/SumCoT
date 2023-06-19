@@ -6,7 +6,7 @@
 
 
 
-<font color=seagreen size=3><i>**Let's elicit LLMs summarize step by step following professional communication theory!**</i></font>
+<font color=green size=4><i>**Let's elicit LLMs summarize step by step following professional communication theory!**</i></font>
 
 In this work, you can use directly or get inspired by:
 
