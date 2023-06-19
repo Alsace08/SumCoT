@@ -6,7 +6,7 @@
 
 
 
-```Let's elicit LLMs summarize step by step following professional communication theory!```
+<font color=seagreen size=3><i>**Let's elicit LLMs summarize step by step following professional communication theory!**</i></font>
 
 In this work, you can use directly or get inspired by:
 
@@ -84,9 +84,11 @@ Data will be released soon...
 
 ## Citation
 
-    @article{wang2023element,
+```
+@article{wang2023element,
     title={Element-aware Summarization with Large Language Models: Expert-aligned Evaluation and Chain-of-Thought Method},
     author={Wang, Yiming and Zhang, Zhuosheng and Wang, Rui},
     journal={arXiv preprint arXiv:2305.13412},
     year={2023}
-    }
+}
+```
