@@ -73,7 +73,6 @@ Dataset format:
 }
 ```
 
-Data will be released soon...
 
 ## Summary Chain-of-Thought (SumCoT)
 
@@ -103,6 +102,7 @@ To facilitate the subsequent evaluation, the summaries just generated will be st
 
 #### evaluation
 
+
 We also provide code in ```/evaluation/eva.py``` to reproduce the results:
 
 ```shell
@@ -117,13 +117,25 @@ where ```bs_true``` indicates if you want to use the bert score, ```start_id``` 
 
 You can also build your own dataset ```json``` file, adjust ```start_id``` and ```end_id``` to perform your own evaluation.
 
+## Reproducibility
+
+Experimental results in this paper are obtained during **October-December 2022** via the OpenAI API interface (basically before the ChatGPT release). If your reproduction results are slightly different from the results of the paper, you can report any of them (just indicate).
+
 ## Citation
 
 ```
-@article{wang2023element,
-    title={Element-aware Summarization with Large Language Models: Expert-aligned Evaluation and Chain-of-Thought Method},
-    author={Wang, Yiming and Zhang, Zhuosheng and Wang, Rui},
-    journal={arXiv preprint arXiv:2305.13412},
-    year={2023}
+@inproceedings{wang-etal-2023-element,
+    title = "Element-aware Summarization with Large Language Models: Expert-aligned Evaluation and Chain-of-Thought Method",
+    author = "Wang, Yiming  and
+      Zhang, Zhuosheng  and
+      Wang, Rui",
+    booktitle = "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    month = jul,
+    year = "2023",
+    address = "Toronto, Canada",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.acl-long.482",
+    doi = "10.18653/v1/2023.acl-long.482",
+    pages = "8640--8665",
 }
 ```

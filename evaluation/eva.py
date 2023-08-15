@@ -19,8 +19,8 @@ def batch_evalution(dataset, start_id, end_id, bs_true):
     eva_new_cot = BatchEvaluation()  # (element-aware ref. summary) vs. (GPT-3 cot summary)
 
     for i in range(start_id, end_id + 1):
-        ori_ref = data[i]["golden_summary"]
-        new_ref = data[i]["written_summary"]
+        ori_ref = data[i]["original_summary"]
+        new_ref = data[i]["element-aware_summary"]
         std_pred = data[i]["gpt3_summary"]
         cot_pred = data[i]["gpt3_cot_summary"]
 
@@ -70,7 +70,7 @@ def batch_evalution(dataset, start_id, end_id, bs_true):
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description="Evaluation")
-    parser.add_argument("--dataset", type=str, default="xsum",
+    parser.add_argument("--dataset", type=str, default="cnndm",
                         choices=["cnndm", "xsum"], help="dataset source")
     parser.add_argument("--start_id", type=int, default="0")
     parser.add_argument("--end_id", type=int, default="199")
