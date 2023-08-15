@@ -119,7 +119,7 @@ You can also build your own dataset ```json``` file, adjust ```start_id``` and `
 
 ## Reproducibility
 
-Experimental results in this paper are obtained during **October-December 2022** via the OpenAI API interface (basically before the ChatGPT release). If your reproduction results are slightly different from the results of the paper, you can report any of them (just indicate).
+Experimental results in this paper are obtained during ***October-December 2022*** via the OpenAI API interface (basically before the ChatGPT release). If your reproduction results are slightly different from the results of the paper, you can report any of them (just indicate).
 
 ## Citation
 
